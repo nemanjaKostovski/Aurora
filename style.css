@@ -1,0 +1,133 @@
+/*Fonts*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+
+@font-face {
+  font-family: curvyFont;
+  src: url(fonts/Tomatoes-O8L8.ttf);
+}
+
+/*Variables (colors)*/
+
+:root {
+  --purple: #552e8b;
+  --green: #159f52;
+}
+
+/*Basic styles*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row;
+}
+
+/*Left side*/
+
+#left {
+    width: 60%;
+    background-color: var(--purple);
+    color: white;
+}
+
+header {
+    height: 100px;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+#aurora-img {
+    margin-top: 1%;
+    height: 55px;
+}
+
+#cutthrough {
+    height: 50px;
+}
+
+.specialChar {
+    font-size: 2rem;
+}
+
+.firstP {
+    width: 90%;
+    height: 120px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: var(--green);
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-bottom: 1%;
+}
+
+.secondP {
+    width: 90%;
+    font-size: 1.9rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 1%;
+}
+
+h2 {
+    font-family: "curvyFont", sans-serif;
+    font-size: 2rem;
+    padding-left: 5%;
+    margin-bottom: 1%;
+}
+
+#advantages {
+    width: 100%;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1.5%;
+    background-color: var(--green);
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-bottom: 1%;
+}
+
+#advantages p {
+     margin-bottom: 1%;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.thin {
+    font-weight: lighter;
+}
+
+.mseries {
+    margin-top: 3%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.mseries img {
+    width: 280px;
+    height: 160px;
+}
+
+#right {
+    width: 40%;
+}
