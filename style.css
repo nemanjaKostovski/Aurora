@@ -2,7 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
-
 @font-face {
   font-family: curvyFont;
   src: url(fonts/Tomatoes-O8L8.ttf);
@@ -29,120 +28,145 @@ body {
 }
 
 main {
-    display: flex;
-    width: 100%;
-    height: 120vh;
-    flex-direction: row;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: row;
 }
 
 /*Left side*/
 
 #left {
-    width: 60%;
-    background-color: var(--purple);
-    color: white;
+  width: 60%;
+  background-color: var(--purple);
+  color: white;
 }
 
 header {
-    height: 100px;
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-right: 10%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1%;
+  height: 90px;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1%;
 }
 
 #aurora-img {
-    margin-top: 1%;
-    height: 55px;
+  margin-top: 1%;
+  height: 55px;
 }
 
 #cutthrough {
-    height: 50px;
+  height: 50px;
 }
 
 .specialChar {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .firstP {
-    width: 90%;
-    height: 120px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: var(--green);
-    text-align: justify;
-    font-size: 1.2rem;
-    margin-bottom: 1%;
+  width: 90%;
+  height: 120px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: var(--green);
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-bottom: 1%;
+  line-height: 1.4;
 }
 
 .secondP {
-    width: 90%;
-    font-size: 1.9rem;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-bottom: 1%;
+  width: 90%;
+  font-size: 1.9rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 1%;
 }
 
 h2 {
-    font-family: "curvyFont", sans-serif;
-    font-size: 2rem;
-    padding-left: 5%;
-    margin-bottom: 1%;
+  font-family: "curvyFont", sans-serif;
+  font-size: 2rem;
+  padding-left: 5%;
+  margin-bottom: 1%;
 }
 
 #advantages {
-    width: 100%;
-    padding-top: 1%;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-bottom: 1.5%;
-    background-color: var(--green);
-    text-align: justify;
-    font-size: 1.2rem;
-    margin-bottom: 1%;
+  width: 100%;
+  padding-top: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 1.5%;
+  background-color: var(--green);
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-bottom: 1%;
 }
 
 #advantages p {
-     margin-bottom: 1%;
+  margin-bottom: 1%;
 }
 
 .bold {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .thin {
-    font-weight: lighter;
+  font-weight: lighter;
 }
 
 .mseries {
-    margin-top: 3%;
-    margin-left: 5%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  margin-top: 3%;
+  margin-left: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.mseries img {
-    width: 280px;
-    height: 160px;
+.ms {
+  width: 260px;
+  height: 140px;
 }
+
+/*Right side*/
 
 #right {
-    width: 40%;
+  width: 40%;
+}
+
+.player {
+  width: 90%;
+  padding-left: 5%;
+  height: 218px;
+  position: relative;
 }
 
 h1 {
-    color: var(--green);
-    font-size: 3rem;
-    padding: 5%;
+  color: var(--green);
+  font-size: 2.5rem;
+  padding: 3%;
+  margin-left: 2%;
 }
 
 ul {
-    padding: 1% 9% 0% 9%;
-    font-size: 1.5rem;
+  padding: 1% 9% 0% 9%;
+  font-size: 1.5rem;
 }
 
 ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.guests {
+  margin-top: 3%;
+  margin-left: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.guests img {
+  height: 200px;
+  width: 150px;
 }
