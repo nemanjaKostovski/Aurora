@@ -140,7 +140,6 @@ h2 {
   width: 90%;
   padding-left: 5%;
   height: 218px;
-  position: relative;
 }
 
 h1 {
@@ -169,4 +168,146 @@ ul li {
 .guests img {
   height: 200px;
   width: 150px;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 576px) {
+  main {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  #left {
+    width: 100%;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #aurora-img {
+    margin-top: 1%;
+    height: 40px;
+    width: 60%;
+  }
+
+  #cutthrough {
+    height: 40px;
+    width: 60%;
+  }
+
+  .firstP {
+    width: 100%;
+    height: 210px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: var(--green);
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-bottom: 1%;
+    line-height: 1.4;
+  }
+
+  .secondP {
+    width: 100%;
+  }
+
+  .mseries {
+    margin: 0;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  #right {
+    width: 100%;
+  }
+
+  .guests {
+    margin: 0;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  main {
+    padding: 0;
+    width: 100%;
+    height: 200vh;
+  }
+
+  #left {
+    width: 55%;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .firstP {
+    height: 230px;
+  }
+
+  .mseries {
+    margin: 0;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  #right {
+    width: 45%;
+  }
+
+  .guests {
+    margin: 0;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  main {
+    height: 100vh;
+  }
+
+  .firstP {
+    height: 160px;
+  }
+
+  .ms {
+    width: 160px;
+    height: 100px;
+  }
+
+  .guests img {
+    height: 180px;
+    width: 120px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  main {
+    height: 173vh;
+  }
+
+  .mseries {
+    margin: 0;
+  }
+
+  .ms {
+    width: 197px;
+    height: 110px;
+  }
+
+  .guests img {
+    height: 175px;
+    width: 115px;
+  }
 }
